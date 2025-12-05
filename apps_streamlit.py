@@ -490,14 +490,12 @@ if not st.session_state.get("authentication_status"):
                 except FileNotFoundError: st.error("Diagram file 'glaucoma.png' not found.")
             with info_cols[1]:
                 st.markdown("""
-                **Blindness Can Be Prevented By Following Doctor/Ophthalmologist Instructions**
-                - Glaucoma is like diabetes or hypertension, no pain or symptoms and it can’t be cured, but regular medication can keep it in control.
-                - There about 12 Million people with Glaucoma in India. Only half of them aware of it.
-                - For every person diagnosed to have Glaucoma, there is another person with undetected Glaucoma.
-                - Many people don’t know they have Glaucoma, until they start to lose 50% of their eye sight, gradually however the doctor can detect and treat Glaucoma before most patients experience any symptoms.
-                - Patients with glaucoma usually have less field of vision (total area of sight) when they have glaucoma and when they have lost all of the visual field, they are prone to blindness.
-                - In Glaucoma all efforts are aimed to preserve the existing vision of a person.
-                - Glaucoma is hereditary. All patients with Glaucoma should inform their family members to get screened for Glaucoma
+                **Primary Glaucomas are a group of disorders characterized by chronic progressive Optic neuropathy with characteristic optic disc changes and corresponding Visual field changes . Intraocular pressure being the only identifiable risk factor. Vision impairment caused by Glaucoma is irreversible. Glaucomas can be secondary to certain pathologies.**
+                - PREVALENCE OF GLAUCOMA:
+                    GLOBAL BURDEN : 68-72 million 
+                    Projected burden by 2040 is 111.8 million .
+                - GLAUCOMA BURDEN IN TELANGANA 1 to 1.5% of the population. 90% of the disease is hidden in the community in developing countries, what is seen is only the tip of the iceberg.
+                - Glaucoma is also called as silent thief of sight as it is an asymptomatic disease in South East Asian population. It is the most common cause of irreversible blindness all over the world.
                 """)
         
          
@@ -575,12 +573,12 @@ if not st.session_state.get("authentication_status"):
         st.markdown("<br><h4 style='color: #00008B;'>Acknowledgements</h4>", unsafe_allow_html=True)
         
         st.markdown("""
-        - Honourable Komatireddy Venkat Reddy, Minister of Roads, Buildings and Cinematography,Government of Telangana.
-        - Mr. Jayesh Ranjan, Special Chief Secretary, Government of Telangana.
-        - Mr. Bhavesh Mishra,IAS,Deputy Secretary IT Government of Telangana.
-        - Smt Ila Tripathi,IAS District Collector and District Magistrate Nalgonda, Telangana.
-        - DM&HO Dr.Putla Srinivas,DCH
-        - Dr. G Ranjit Kumar,practicing optometrist & Visual Fields, Fellow in Optometry LV Prasad Eye Institute (LVPEI) 
+        - Hon'ble Shri Komatireddy Venkat Reddy, Minister of Roads, Buildings and Cinematography, Government of Telangana.
+        - Shri Jayesh Ranjan, Special Chief Secretary for Special Projects (SPEED) and Investment Cell, Government of Telangana.
+        - Shri Bhavesh Mishra, I.A.S., Deputy Secretary, IT, Electronics & Communications Government of Telangana.
+        - Smt. Ila Tripathi, I.A.S., District Collector and District Magistrate, Nalgonda, Telangana.
+        - Dr. Putla Srinivas, DM & HO, Nalgonda, Telangana 
+        - Shri G. Ranjit Kumar, Practicing Optometrist & Visual Field Specialist, Founder - GRK Visual Fields, Fellow in Optometry- L V Prasad Eye Institute (LVPEI) 
         """)
 
 # --- MAIN APPLICATION (Runs only after successful login) ---
