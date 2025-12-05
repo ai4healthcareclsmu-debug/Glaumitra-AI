@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+scikit-learn==1.6.1
+streamlit
+streamlit-authenticator
+pandas
+numpy
+opencv-python-headless
+plotly
+transformers
+joblib
+torch==2.7.1+cpu
+fpdf2
+kaleido
+scikit-image
