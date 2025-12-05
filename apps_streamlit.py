@@ -533,7 +533,7 @@ if not st.session_state.get("authentication_status"):
         st.markdown("""
         **GlauMitra AI** is an initiative driven by the need for advanced tools to enable early and accurate diagnosis of glaucoma in Indian patients, particularly in resource-limited settings, to ensure timely referral to ophthalmologists.
         - Early and accurate diagnosis of glaucoma is critical for effective treatment and the prevention of irreversible blindness. With this goal, we developed GlauMitra AI—an advanced artificial intelligence system designed to automatically detect early signs of glaucoma from retinal fundus images of Indian patients, specifically from Telangana State, using both conventional and handheld fundus cameras.
-        - To build this system, we employed state-of-the-art AI and image processing techniques. Our model was trained on retinal fundus images comprising both Glaucoma and Non-Glaucoma cases curated by highly trained ophthalmologist.  and Non-Glaucoma cases collected from Nalgonda and Hyderabad districts.
+        - To build this system, we employed state-of-the-art AI and image processing techniques. Our model was trained on large number of retinal fundus images comprising of both Glaucoma and Non-Glaucoma cases taken from Nalgonda and Hyderabad districts and curated by a highly trained ophthalmologist.
         - We envision **GlauMitra AI** as a valuable screening tool for early glaucoma detection, especially in resource-limited settings, enabling timely referrals to ophthalmologists and improving patient outcomes.
         """)
     
@@ -557,7 +557,7 @@ if not st.session_state.get("authentication_status"):
                 <td style="padding: 8px; border: 1px solid #ddd; background-color: #e6f5e6;">santosh.thakur@mahindrauniversity.edu.in</td>
             </tr>
             <tr style="border: 1px solid #ddd;">
-                <td style="padding: 8px; border: 1px solid #ddd; background-color: #e6f5e6;">Dr. Superna Mahendra (Collaborator)<br>Civil Surgeon Ophthalmologist, Government General Hospital,<br>Nalgonda, Telangana</td>
+                <td style="padding: 8px; border: 1px solid #ddd; background-color: #e6f5e6;">Dr. Superna Mahendra (Research Collaborator and Mentor)<br>Civil Surgeon Ophthalmologist, Government General Hospital,<br>Nalgonda, Telangana</td>
                 <td style="padding: 8px; border: 1px solid #ddd; background-color: #e6f5e6;">drsuperna95@gmail.com</td>
             </tr>
             <tr style="border: 1px solid #ddd;">
@@ -576,10 +576,10 @@ if not st.session_state.get("authentication_status"):
         st.markdown("""
         - Hon'ble Shri Komatireddy Venkat Reddy, Minister of Roads, Buildings and Cinematography, Government of Telangana.
         - Shri Jayesh Ranjan, Special Chief Secretary for Special Projects (SPEED) and Investment Cell, Government of Telangana.
-        - Shri Bhavesh Mishra, I.A.S., Deputy Secretary, IT, Electronics & Communications Government of Telangana.
+        - Shri Bhavesh Mishra, I.A.S., Deputy Secretary, IT, Electronics & Communications, Government of Telangana.
         - Smt. Ila Tripathi, I.A.S., District Collector and District Magistrate, Nalgonda, Telangana.
         - Dr. Putla Srinivas, DM & HO, Nalgonda, Telangana 
-        - Shri G. Ranjit Kumar, Practicing Optometrist & Visual Field Specialist, Founder - GRK Visual Fields, Fellow in Optometry- L V Prasad Eye Institute (LVPEI) 
+        - Shri G. Ranjit Kumar, Practicing Optometrist & Visual Field Specialist, Founder - GRK Visual Fields, Fellow in Optometry - L V Prasad Eye Institute (LVPEI) 
         """)
 
 # --- MAIN APPLICATION (Runs only after successful login) ---
