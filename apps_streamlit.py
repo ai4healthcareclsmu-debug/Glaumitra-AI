@@ -490,11 +490,12 @@ if not st.session_state.get("authentication_status"):
                 except FileNotFoundError: st.error("Diagram file 'glaucoma.png' not found.")
             with info_cols[1]:
                 st.markdown("""
-                **Primary Glaucomas are a group of disorders characterized by chronic progressive Optic neuropathy with characteristic optic disc changes and corresponding Visual field changes . Intraocular pressure being the only identifiable risk factor. Vision impairment caused by Glaucoma is irreversible. Glaucomas can be secondary to certain pathologies.**
-                - PREVALENCE OF GLAUCOMA:
-                    GLOBAL BURDEN : 68-72 million 
-                    Projected burden by 2040 is 111.8 million .
-                - GLAUCOMA BURDEN IN TELANGANA 1 to 1.5% of the population. 90% of the disease is hidden in the community in developing countries, what is seen is only the tip of the iceberg.
+                - **Primary Glaucomas are a group of disorders characterized by chronic progressive Optic neuropathy with characteristic optic disc changes and corresponding Visual field changes . Intraocular pressure being the only identifiable risk factor. Vision impairment caused by Glaucoma is irreversible. Glaucomas can be secondary to certain pathologies.**
+                - **PPREVALENCE OF GLAUCOMA**:
+                    **GLOBAL BURDEN**: 68-72 million 
+                    - Projected burden by 2040 is 111.8 million .
+                    **GLAUCOMA BURDEN IN INDIA** is 12-16 million, 10% are bilateral blind and only 10% are diagnosed with glaucoma.
+                - **GLAUCOMA BURDEN IN TELANGANA** 1 to 1.5% of the population. 90% of the disease is hidden in the community in developing countries, what is seen is only the tip of the iceberg.
                 - Glaucoma is also called as silent thief of sight as it is an asymptomatic disease in South East Asian population. It is the most common cause of irreversible blindness all over the world.
                 """)
         
@@ -532,7 +533,7 @@ if not st.session_state.get("authentication_status"):
         st.markdown("""
         **GlauMitra AI** is an initiative driven by the need for advanced tools to enable early and accurate diagnosis of glaucoma in Indian patients, particularly in resource-limited settings, to ensure timely referral to ophthalmologists.
         - Early and accurate diagnosis of glaucoma is critical for effective treatment and the prevention of irreversible blindness. With this goal, we developed GlauMitra AI—an advanced artificial intelligence system designed to automatically detect early signs of glaucoma from retinal fundus images of Indian patients, specifically from Telangana State, using both conventional and handheld fundus cameras.
-        - To build this system, we employed state-of-the-art AI and image processing techniques. Our model was trained on a self-curated dataset of approximately 15,000 fundus images—comprising both Glaucoma and Non-Glaucoma cases—collected from patients in the Nalgonda and Hyderabad districts. The dataset was split 80:20 for training and testing purposes, and the resulting system achieved an impressive 90% classification accuracy.
+        - To build this system, we employed state-of-the-art AI and image processing techniques. Our model was trained on retinal fundus images comprising both Glaucoma and Non-Glaucoma cases curated by highly trained ophthalmologist.  and Non-Glaucoma cases collected from Nalgonda and Hyderabad districts.
         - We envision **GlauMitra AI** as a valuable screening tool for early glaucoma detection, especially in resource-limited settings, enabling timely referrals to ophthalmologists and improving patient outcomes.
         """)
     
