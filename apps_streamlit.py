@@ -492,10 +492,10 @@ if not st.session_state.get("authentication_status"):
                 st.markdown("""
                 - **Primary Glaucomas are a group of disorders characterized by chronic progressive Optic neuropathy with characteristic optic disc changes and corresponding Visual field changes . Intraocular pressure being the only identifiable risk factor. Vision impairment caused by Glaucoma is irreversible. Glaucomas can be secondary to certain pathologies.**
                 - **PPREVALENCE OF GLAUCOMA**:
-                    **GLOBAL BURDEN**: 68-72 million 
+                - **GLOBAL BURDEN**: 68-72 million 
                     - Projected burden by 2040 is 111.8 million .
-                    **GLAUCOMA BURDEN IN INDIA** is 12-16 million, 10% are bilateral blind and only 10% are diagnosed with glaucoma.
-                - **GLAUCOMA BURDEN IN TELANGANA** 1 to 1.5% of the population. 90% of the disease is hidden in the community in developing countries, what is seen is only the tip of the iceberg.
+                - **GLAUCOMA BURDEN IN INDIA** is 12-16 million, 10% are bilateral blind and only 10% are diagnosed with glaucoma.
+                - **GLAUCOMA BURDEN IN TELANGANA**: 1 to 1.5% of the population. 90% of the disease is hidden in the community in developing countries, what is seen is only the tip of the iceberg.
                 - Glaucoma is also called as silent thief of sight as it is an asymptomatic disease in South East Asian population. It is the most common cause of irreversible blindness all over the world.
                 """)
         
